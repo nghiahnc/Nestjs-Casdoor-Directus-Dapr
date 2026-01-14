@@ -41,21 +41,21 @@ npm run start:dev
 
 
 
-####  Các file chính và chức năng
+## Các file chính và chức năng
 
 ### src/app.module.ts
 - Khai báo module chính
 - Import `PostsModule`, `AuthModule`
 
 ###  src/posts
-# posts.controller.ts
+#### posts.controller.ts
 - API:
   - GET /posts
   - GET /posts/:id
   - POST /posts
   - PATCH /posts/:id
   - DELETE /posts/:id
-# posts.service.ts
+#### posts.service.ts
 - Gọi Directus API:
   - GET /items/posts
   - GET /items/posts/:id
@@ -64,10 +64,10 @@ npm run start:dev
   - DELETE /items/posts/:id
 
 ### src/auth
-# auth.controller.ts
+#### auth.controller.ts
 - GET /auth/login → redirect Casdoor
 - GET /auth/callback → nhận `code`
-# casdoor.service.ts
+#### casdoor.service.ts
 - Tạo URL đăng nhập Casdoor
 - Đổi `code` lấy `access_token`
 
