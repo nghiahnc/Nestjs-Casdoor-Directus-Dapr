@@ -40,10 +40,6 @@ docker run -d --name casdoor -p 8000:8000 casbin/casdoor
 npm run start:dev
 
 
-## Luồng chạy:
-Client → NestJS → Directus
-Client → NestJS → Casdoor
-
 
 ####  Các file chính và chức năng
 
