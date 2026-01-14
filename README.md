@@ -71,3 +71,11 @@ npm run start:dev
 - Tạo URL đăng nhập Casdoor
 - Đổi `code` lấy `access_token`
 
+### src/dapr
+#### dapr.module.ts
+- Đóng gói Dapr thành NestJS Module
+- Cho phép inject DaprService vào các module khác
+#### dapr.service.ts
+- Giao tiếp với Dapr sidecar
+- Thực hiện service invocation
+
