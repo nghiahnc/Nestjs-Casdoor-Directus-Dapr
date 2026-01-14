@@ -5,7 +5,7 @@ Xây dựng backend CRUD bài viết với:
 - **NestJS**: API Gateway
 - **Directus**: CMS + Database 
 - **Casdoor**: Đăng nhập & cấp token
--**Dapr**: microservice
+- **Dapr**: microservice
 
 ## Các chức năng đang có
 
